@@ -12,6 +12,22 @@ export const metadata: Metadata = {
   title: "Popularne Igre u Hrvatskoj | PopularneIgre.com",
   description:
     "Stručne recenzije najboljih hrvatskih online kasina. Otkrijte licencirane kasine s atraktivnim bonusima i sigurnom igrom u Hrvatskoj 2025.",
+  keywords: [
+    "popularne igre",
+    "online kasina",
+    "hrvatska kasina",
+    "casina recenzije",
+    "bonusi dobrodošlice",
+    "sigurna igra",
+    "licencirana kasina",
+    "najbolja kasina 2025",
+    "hrvatski igrači",
+    "kockanje online",
+  ],
+  authors: [{ name: "Popularne Igre", url: "https://popularneigre.com" }],
+  creator: "Popularne Igre",
+  publisher: "Popularne Igre",
+  applicationName: "Popularne Igre",
   metadataBase: new URL("https://popularneigre.com"),
   openGraph: {
     title: "Popularne Igre u Hrvatskoj 2025 | Najbolji Online Kasina",
