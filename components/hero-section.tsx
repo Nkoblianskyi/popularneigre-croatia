@@ -1,4 +1,4 @@
-import {  TrendingUp, Award, CheckCircle2 } from "lucide-react"
+import { TrendingUp, Award, CheckCircle2 } from "lucide-react"
 import Image from "next/image"
 export function HeroSection() {
   const currentDate = new Date()
@@ -41,20 +41,22 @@ export function HeroSection() {
                 <span className="text-white font-semibold text-sm">100% Licencirano</span>
               </div>
 
+
               <div className="flex items-center gap-2">
-                <TrendingUp className="h-5 w-5 text-[#d4af37]" />
-                <span className="text-white font-semibold text-sm">60+ Recenzija</span>
+                <CheckCircle2 className="h-5 w-5 text-[#d4af37]" />
+                <span className="text-white font-semibold text-sm">Odgovorna Igra</span>
               </div>
 
               <div className="flex items-center gap-2">
                 <Award className="h-5 w-5 text-[#d4af37]" />
-                <span className="text-white font-semibold text-sm">12+ Godina</span>
+                <span className="text-white font-semibold text-sm">Sigurne Uplate</span>
               </div>
 
               <div className="flex items-center gap-2">
-                <CheckCircle2 className="h-5 w-5 text-[#d4af37]" />
-                <span className="text-white font-semibold text-sm">500K+ Korisnika</span>
+
+                <span className="text-red-800 font-bold text-sm">18+</span>
               </div>
+
             </div>
 
             <div className="flex items-center justify-center gap-2 text-xs text-gray-400 pt-1">

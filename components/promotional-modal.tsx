@@ -51,7 +51,7 @@ export default function PromotionalModal() {
                     />
                   ))}
                 </div>
-                <span className="text-sm font-bold text-white">{topCasino.rating}/5</span>
+                <span className="text-sm font-bold text-white">{topCasino.rating}/10</span>
                 <span className="text-gray-400 text-sm">({topCasino.votes.toLocaleString()} recenzija)</span>
               </div>
 
